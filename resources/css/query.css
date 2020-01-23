@@ -1,0 +1,68 @@
+@media (max-width:1166px)
+{
+    .tower-logo-container
+    {
+        display: none;
+    }
+    .tower-logo-container-sm{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tower-availability-right-section{
+        margin-top: 0;
+    }
+
+    .tower-logo-sm{
+        justify-content: center;
+        padding: 0.6rem;
+        margin: 0 auto;
+    }
+
+    .tower-logo-sm img{
+        width: 100%;
+    }
+    .amenities
+    {
+        width: 90%;
+    }
+    .amenities-details-section
+    {
+        width: 100%;
+    }
+
+    .tower-availability-section{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .tower-availability-left-section{
+        width: 80%;
+    }
+    .tower-availability-right-section{
+        width: 50%;
+        margin-left: 0;
+
+    }
+    .gallery-images
+    {
+        width: 60%;
+        margin: 0 auto;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-images img
+    {
+        display: flex;
+        width: 50%;
+        height: 210px;
+        transition: all .5s;
+    }
+    .gallery-images img:hover
+{
+    transform: scale(1.2);
+}
+}

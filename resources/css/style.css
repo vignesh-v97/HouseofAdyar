@@ -1,0 +1,288 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+
+/* COMMON COMPONENTS */
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+html,
+body
+{
+    text-rendering: optimizeLegibility;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* REUSABLE COMPONENTS */
+section
+{
+    margin: 0 auto;
+    margin-bottom: 80px 0;
+}
+span
+{
+    font-size: 16px;
+}
+h3
+{
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 5%;
+}
+/* HERO IMAGE SECTION */
+.hero-image
+{
+    width: 100%;
+    min-height: 85%;
+    display: block;
+
+}
+
+/* TOWER LOGO AND SHORT HISTORY */
+header
+{
+    position: relative;
+    margin-bottom: 2%;
+}
+.tower-logo-container
+{
+    display: flex;
+    position: absolute;
+    bottom:0%;
+    height: max-content;
+}
+.tower-logo{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+.tower-logo-content
+{
+    width: 30%;
+    height: auto;
+    font-size: 13px;
+    padding: 0.5%;
+    padding-left: 1%;
+    color: #fff;
+    background-color: #B31E50;
+    font-weight: 400;
+}
+
+/* Tower logo content small */
+.tower-logo-container-sm
+{
+    height: max-content;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom: 1rem;
+    display: none;
+
+}
+.tower-logo-sm{
+    background-color: #fff;
+    display: flex;
+    padding: 0 3rem;
+}
+.tower-logo-content-sm
+{
+    height: auto;
+    font-size: 13px;
+    padding: 3%;
+    color: #fff;
+    background-color: #B31E50;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+/* TOWER AVAILABILITY */
+/* tower-availability-left-section */
+.v-ln
+{
+    background-color: #B31E50;
+}
+.tower-availability-section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 4rem;
+}
+.input-enquiry-form
+{
+    display: flex;
+    flex-direction: column;
+}
+.tower-availability-left-section
+{
+    width: 60%;
+}
+.central-location p,
+.proximity p
+{
+    font-size: 14px;
+    margin: 0;
+    padding: 1%;
+}
+.central-location-content
+{
+    display: flex;
+}
+.proximity-bold
+{
+    font-weight: bold;
+}
+
+/* tower-availability-right-section */
+.tower-availability-right-section
+{
+    background-color: #B31E50;
+    width: 33%;
+    position: relative;
+    height: max-content;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-top: -11.4%;
+}
+
+.enquiry-form h3
+{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    margin: 3%;
+}
+
+.input-enquiry-form{
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.input-enquiry-form > *{
+    margin: 0 auto;
+}
+
+
+
+.input-area,
+.submit-btn
+{
+    outline: none;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+    background-color: #B31E50;
+    padding: 3%;
+    width: 80%;
+    color: #fff;
+}
+.submit-btn
+{
+    font-size: 16px;
+}
+.text-area
+{
+    width: 80%;
+    height: 125px;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+input::placeholder
+{
+    color: #fff;
+    font-size: 16px;
+}
+textarea::placeholder
+{
+    color: #495057;
+    font-size: 15px;
+    padding: 3%;
+}
+
+/* amenities */
+.amenities
+{
+    max-width: 78%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.amenities-content h3
+{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.amenities-details
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.amenities-details-section
+{
+    margin-right: 0.5rem;
+    width: 260px;
+    margin-top: .5rem;
+}
+
+
+/* gallery-section */
+.gallery-section
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.gallery-section h3
+{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.gallery-images img
+{
+    width: 23%;
+    height: 210px;
+    margin: 0 20px 20px 0;
+    transition: all .5s;
+}
+/* .gallery-images
+{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.gallery-images img:hover
+{
+    border-radius: 5%;
+    transform: scale(1.1);
+}
+/* FOOTER */
+footer
+{
+    background-color: #212529;
+    width: 100%;
+    height: 80px;
+}
+footer p
+{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 30px 0;
+}
+
